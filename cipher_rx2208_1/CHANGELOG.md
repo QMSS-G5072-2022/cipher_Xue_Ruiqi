@@ -4,4 +4,4 @@
 
 ## v0.1.0 (01/11/2022)
 
-- First release of `cipher_rx2208`!
+- First release of `cipher_rx2208_1`!

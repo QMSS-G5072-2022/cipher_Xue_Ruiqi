@@ -6,9 +6,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u"cipher_rx2208"
-copyright = u"2022, Ruiqi_Xue"
-author = u"Ruiqi_Xue"
+project = u"cipher_rx2208_1"
+copyright = u"2022, Ruiqi Xue"
+author = u"Ruiqi Xue"
 
 # -- General configuration ---------------------------------------------------
 

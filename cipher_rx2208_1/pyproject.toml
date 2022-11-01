@@ -1,15 +1,24 @@
 [tool.poetry]
-name = "cipher_rx2208"
+name = "cipher_rx2208_1"
 version = "0.1.0"
-description = "A package for MDS HW"
-authors = ["Ruiqi_Xue"]
+description = "second package"
+authors = ["Ruiqi Xue"]
 license = "MIT"
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.9"
+pandas = "^1.5.1"
 
 [tool.poetry.dev-dependencies]
+
+[tool.poetry.group.dev.dependencies]
+myst-nb = "^0.17.1"
+sphinx-autoapi = "^2.0.0"
+sphinx-rtd-theme = "^1.1.0"
+pytest = "^7.2.0"
+pytest-cov = "^4.0.0"
+
 [tool.semantic_release]
 version_variable = "pyproject.toml:version" # version location
 branch = "main"                             # branch to make releases of
