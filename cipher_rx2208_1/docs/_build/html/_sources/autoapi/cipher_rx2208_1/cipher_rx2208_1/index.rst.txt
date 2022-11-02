@@ -1,0 +1,41 @@
+:py:mod:`cipher_rx2208_1.cipher_rx2208_1`
+=========================================
+
+.. py:module:: cipher_rx2208_1.cipher_rx2208_1
+
+
+Module Contents
+---------------
+
+
+Functions
+~~~~~~~~~
+
+.. autoapisummary::
+
+   cipher_rx2208_1.cipher_rx2208_1.cipher
+
+
+
+.. py:function:: cipher(text, shift, encrypt=True)
+
+   this function replaces the input text with an encrpyted output that
+   is based on the number of shift in the alphabet (i.e. if the letter is a
+   and the shift is 1, the function should return b).
+   :param text:
+   :type text: a text that you want to encrypt
+   :param shift:
+   :type shift: an integer that you want the text to shift down the alphabet
+   :param encrypt:
+   :type encrypt: a boolean that indicates whether you want the function to encrypt or decrypt
+
+   :rtype: Encrypted or decrypted text
+
+   .. rubric:: Examples
+
+   >>> cipher(abc,1)
+   'bcd'
+   >>> cipher(bcd,1,False)
+   'abc'
+
+
